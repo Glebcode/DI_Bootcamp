@@ -10,7 +10,7 @@ class Circle:
     @classmethod
     def circleArea(cls, radius):
         circle_area = 3.14159 * pow(radius, 2)
-        return circle_area
+        return circle_area # the idea is coreect but you should return instance of the class
     def comparingCircles(self, other_radius, other_name):
         if self.radius > other_radius:
             print(f"{self.name} bigger then {other_name}")
@@ -23,6 +23,7 @@ class Circle:
         circle_list.append(other_name)
         circle_list.sort()
         print(circle_list)
+        # Missing alot of implementations
 
 
 circle1 = Circle.circleArea(10)
