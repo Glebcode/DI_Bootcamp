@@ -24,7 +24,7 @@ class Queue:
         return self.humans
     def get_next(self):
         return self.humans[0]
-        self.humans.remove(self.humans[0]) # invalid alignemt, please fix it
+        self.humans.remove(self.humans[0])
         self.humans.insert(x-1, self.humans[0])
     def get_next_blood_type(self, blood_type):
         for i in range(len(self.humans)):
