@@ -6,7 +6,7 @@ app = flask.Flask(__name__)
 def main_route():
 	return flask.render_template("main_page.html")
 
-@app.route("/blue")
+@app.route("/blue") # this solution will work, but try to make generic which means to create just one template and each time pass to it the color
 def blue_route():
 	return flask.render_template("blue.html")
 
