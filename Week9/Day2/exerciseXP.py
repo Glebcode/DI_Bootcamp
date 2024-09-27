@@ -24,6 +24,7 @@ def __repr__(self):
 
 
 
+
 c1 = Currency('dollar', 5)
 c2 = Currency('dollar', 10)
 c3 = Currency('shekel', 1)
