@@ -1,3 +1,4 @@
+# why to but this outside the classes? add each one the apprpriate class as class attribute
 inhabitants = []
 ages = []
 dict_liv_pl = {}
